@@ -1,11 +1,23 @@
-# Week 1: Python Basics - Personal Introduction Program
+# Week 2: Student Grade Calculator
 
 ## Project Overview
-This project is an entry-level Python command-line application that asks users for basic personal details (name, age, hobby) and presents a clean, formatted welcome card using Python f-strings.
+An interactive Python application designed to calculate student grades based on numerical marks (0-100). The program features strict input validation using error handling and a `while` loop, modular functions, and custom motivational feedback messages for each grade bracket.
 
-## Setup Instructions
-1. Install Python 3.x from [python.org](https://www.python.org/).
-2. Open a terminal or command prompt inside this folder.
-3. Run the script using:
+## Grading Logic
+- **A**: 90 - 100 (Outstanding achievement)
+- **B**: 80 - 89 (Very Good)
+- **C**: 70 - 79 (Good effort)
+- **D**: 60 - 69 (Passed)
+- **F**: 0 - 59 (Needs Improvement)
+
+## Technical Features
+- **Functions**: `calculate_grade()` for grading logic and `get_valid_marks()` for input handling.
+- **Conditional Logic**: Multi-branch `if-elif-else` structures.
+- **Input Validation**: Uses `while True` and `try-except ValueError` blocks to reject non-numeric inputs and values outside the 0–100 boundary.
+- **Formatting**: Python f-strings used for report layout.
+
+## Setup & Execution
+1. Ensure Python 3.x is installed.
+2. Run the script:
    ```bash
-   python personal_intro.py
+   python grade_calculator.py

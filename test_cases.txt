@@ -1,0 +1,32 @@
+Student Grade Calculator - Test Cases Log
+=========================================
+
+Test Case 1: Grade A (Boundary & High Range)
+- Input: Name = "Rahul", Marks = 95
+- Expected Result: Grade A, "Outstanding achievement! Keep up the brilliant work! 🌟"
+- Status: PASSED
+
+Test Case 2: Grade B (Mid-High Range)
+- Input: Name = "Priya", Marks = 85
+- Expected Result: Grade B, "Very Good! Keep it up! 👍"
+- Status: PASSED
+
+Test Case 3: Grade C (Mid Range)
+- Input: Name = "Amit", Marks = 74
+- Expected Result: Grade C, "Good effort! With a little more focus, you can reach the top! 💪"
+- Status: PASSED
+
+Test Case 4: Grade D (Passing Threshold)
+- Input: Name = "Sneha", Marks = 62
+- Expected Result: Grade D, "Passed. Consider reviewing challenging topics to improve! 📚"
+- Status: PASSED
+
+Test Case 5: Grade F (Below Passing Threshold)
+- Input: Name = "Kiran", Marks = 45
+- Expected Result: Grade F, "Needs Improvement. Don't be discouraged, practice will make you better! 🎯"
+- Status: PASSED
+
+Test Case 6: Input Validation (Out of Bounds & Type Handling)
+- Input: Marks = -5, then 150, then "abc", then 88
+- Expected Result: Error messages for the first three attempts; successfully accepted 88 on fourth attempt.
+- Status: PASSED
